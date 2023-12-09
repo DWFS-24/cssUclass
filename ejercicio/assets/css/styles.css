@@ -1,0 +1,151 @@
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.hero{
+  background-image: url('https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=1411&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  padding: 10rem;
+  color: #FFF;
+  background-repeat: no-repeat;
+  background-position: 50% 70%;
+
+}
+
+.hero h1{
+  font-size: 45px;
+  backdrop-filter: blur(3px);
+}
+
+.hero p{
+  font-size: 25px;
+  backdrop-filter: blur(3px);
+}
+
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul a{
+  display: block;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#menu ul li{
+  position: relative;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul li:hover{
+  background:#5b78a7;
+}
+
+#menu ul ul{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #104897;
+  padding: 0;
+}
+
+#menu ul ul li{
+  float: none;
+  width: 150px;
+}
+
+#menu ul ul a{
+  line-height: 120%;
+  padding: 10px 15px;
+}
+
+#menu ul li:hover > ul{
+  display: block;
+}
+
+.content-products{
+  padding: 6rem;
+  background-color: #5b78a7;
+}
+
+.products-title{
+  text-align: center;
+  color: #FFF;
+  font-size: 2rem;
+}
+
+.product-card{
+  color: #FFF;
+  display: inline-block;
+  max-width: 220px;
+  margin: 2rem;
+  padding: 1rem;
+  border: 2px solid #eee;
+  border-radius: 20px;
+}
+
+.product-card:hover{
+  transform: rotateX(3.142rad);
+}
+
+.product-card-title{
+  margin: 1.5rem 0;
+}
+
+.contact{
+  padding: 6rem;
+  background-color: #498569;
+  color: #FFF;
+}
+
+.contact input{
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+
+.contact button{
+  border: none;
+  outline: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 4px;
+  color: #FFF;
+  background-color: #104897;
+}
+
+.footer-content{
+  padding: 8rem;
+  background-color: #FFF;
+  color: #5b78a7;
+  font-size: 20px;
+}
+
+.footer-content h2 b {
+  color: #254897;
+}
+
+.footer-content-list{
+  margin: 2.5rem;
+  display: inline-block;
+  max-width: 220px;
+  padding: 1rem;
+  list-style: none;
+}
+
+@media(min-width: 500px){
+  .footer-content h2 b {
+    color: red;
+  }
+}
